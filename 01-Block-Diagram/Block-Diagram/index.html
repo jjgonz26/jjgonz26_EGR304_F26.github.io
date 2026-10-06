@@ -26,7 +26,7 @@
 
     
       
-        <title>Individal Block Diagram - EGR 304 Justin Gonzalez Datasheet</title>
+        <title>Individual Block Diagram - EGR 304 Justin Gonzalez Datasheet</title>
       
     
     
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Individal Block Diagram
+              Individual Block Diagram
             
           </span>
         </div>
@@ -471,7 +471,7 @@
           
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    Individual Block Diagram
   </span>
   
 
@@ -482,7 +482,7 @@
         
   
   <span class="md-ellipsis">
-    Individal Block Diagram
+    Individual Block Diagram
   </span>
   
 
@@ -511,9 +511,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#power-source" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      Power Source
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Levels
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sensors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actuators-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actuators/ Outputs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Connections:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#justin-gonzalez-block-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justin Gonzalez Block Diagram
     </span>
   </a>
   
@@ -809,9 +854,54 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#power-source" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      Power Source
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Levels
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sensors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actuators-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Actuators/ Outputs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Connections:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#justin-gonzalez-block-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justin Gonzalez Block Diagram
     </span>
   </a>
   
@@ -840,21 +930,59 @@
   
 
 
-  <h1>Individal Block Diagram</h1>
+  <h1>Individual Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
-<h2 id="example-block-diagram">Example Block Diagram</h2>
-<p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../individual-block-diagram.png" data-desc-position="bottom"><img alt="Example of Indivial Block diagram " src="../individual-block-diagram.png"></a></p>
+<p>The block diagram below shows the measuring subsystem for Team 206's pet feeder. It shows how the three light sensors, push buttons, LED, microcontroller pins, power levels, and team connection are arranged. The diagram will be updated with part numbers for design review.</p>
+<h2 id="power-source">Power Source</h2>
+<p>The subsystem is powered from 9 V, 1 A unregulated supply. The 9V supply feeds a voltage regulator that provides a regulated 5 V output for the subsystem.</p>
+<h2 id="power-levels">Power Levels</h2>
+<p>The PIC18F57Q43 Curiosity Nano, photoresistor, op-amp, pushbutton and LEDS are all on a 5 V rail. The 9 V rail is used as the input to the 5 V regulator.</p>
+<h2 id="sensors">Sensors</h2>
+<p>The subsystem uses three photoresistors to monitor the food level in the feeder. Photoresistor 1 detects the empty level, Photoresistor 2 detects the low-fill level, and Photoresistor 3 detects the high-fill level. Each sensor signal is conditioned by an op-amp circuit and then read by an ADC input on PIC18F57Q43.</p>
+<h2 id="actuators-outputs">Actuators/ Outputs</h2>
+<p>Two LEDS provide visual indication of the selected fill level. The microcontroller also provides digital output signal to the motor subsystem when filling should begin or stop based on the selected level and sensor reading.</p>
+<h2 id="team-connections">Team Connections:</h2>
+<p>This board will be connected to AJ's board to give an input to control the motor.</p>
+<table>
+<thead>
+<tr>
+<th>Ribbon Pin</th>
+<th>Direction</th>
+<th>My MCU Pin</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-3</td>
+<td>-</td>
+<td>-</td>
+<td>Unused</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Justin → AJ</td>
+<td>RC2</td>
+<td>Motor/Fill control signal</td>
+</tr>
+<tr>
+<td>5-7</td>
+<td>-</td>
+<td>-</td>
+<td>Unused</td>
+</tr>
+<tr>
+<td>8</td>
+<td>-</td>
+<td>GND</td>
+<td>Shared ground</td>
+</tr>
+</tbody>
+</table>
+<h2 id="justin-gonzalez-block-diagram">Justin Gonzalez Block Diagram</h2>
+<p><a href="https://drive.google.com/file/d/1Y3qVkam38sxITZQeANNHaddejhfWaVvK/view?usp=sharing">Link to individual .drawio</a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/76b2101a-3cc6-47f1-8057-180fdf878dfa" data-desc-position="bottom"><img width="922" height="978" alt="304 Individual block diagram m206  drawio" src="https://github.com/user-attachments/assets/76b2101a-3cc6-47f1-8057-180fdf878dfa"></a></p>
 
 
 
