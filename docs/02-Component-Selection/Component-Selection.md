@@ -1,58 +1,15 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
+**Table 1: Op Amp**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+|<img width="200" height="200" alt="MCP6004" src="https://github.com/user-attachments/assets/6a7ad8c6-ad99-470a-b112-e7f20242e0b2" /> <br>\* Option 1.<br>\* MCP6004-I/P Quad Operational Amplifier<br>\* $0.60/each<br>[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)                 | \* Operates on 5V<br>\* Four amplifiers in one<br>\* Low supply current (100 μA per amplifier)<br>\* Rail-to-rail inputs and outputs                                               | \* Maximum Supply Voltage 6V needs regulation from 9V power source <br>\* Lower bandwidth (1 MHz) than the TL974IN (12 MHz)<br>\*Input offset voltage can introduce small measurements errors |
+| <img width="200" height="200" alt="TL974IN" src="https://github.com/user-attachments/assets/c6fdefa1-d144-4de3-8a11-81a5f1e29387" /> <br>\* Option 2. <br>\* TL974IN Quad Operational Amplifier <br>\* $1.66/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/TL974IN/1675406) | \* Works with 5V supply<br>\* Four amplifiers in one <br> \* Higher bandwidth(12 MHz) | * More expensive <br>\* Higher power consumption <br>\*Limited input common mode voltage range                                                       |
+|<img width="200" height="200" alt="LM324N" src="https://github.com/user-attachments/assets/3b57f81f-bab1-4d46-a6dc-1afbfa9414f0" /> <br>\* Option 3. <br>\* LM324N Quad Operational Amplifier <br>\* $0.58/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM324N/277627) | \* Operates on 5V<br>\* Four amplifiers in one <br> \* Inexpensive | * Not rail-to-rail <br>\* Input common-mode range does not extend to the positive 5V supply rail <br>\*Higher input bias current (45nA) than the MCP6004 (1pA)                                                       |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 1:  MCP6004-I/P Quad Operational Amplifier
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:**
