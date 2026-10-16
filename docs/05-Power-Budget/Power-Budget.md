@@ -1,8 +1,9 @@
 ---
 title: Power Budget
 ---
-
+Blank for initial optional completion submission
 ## Overview
+Power Budget is still a work in progress
 Write a overview of what you did and why you did a Power Budget.
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
