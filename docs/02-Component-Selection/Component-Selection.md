@@ -25,6 +25,22 @@ title: Component Selection
 |<img width="200" height="200" alt="NSL-A95013" src="https://github.com/user-attachments/assets/afd7d758-f4bd-4232-9bcf-e6b3622b88fb" /> <br>\* Option 2. <br>\* NSL-A95013 CdS Photoresistor <br>\* $0.88/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/advanced-photonix/NSL-A95013/26316781) | \* High minimum dark resistance (1.2 MOhms)<br>\* Resistance changes with light exposure <br> \* Good at detecting blocked light | * More expensive than Option 1<br>\* requires a voltage divider circuit <br>\*Ambient lighting may affect readings                                                       |
 |<img width="200" height="200" alt="161 CDS Photoresistor" src="https://github.com/user-attachments/assets/56e7dd68-b44c-449e-bd7f-2722f7d5b93c" /><br>\* Option 3. <br>\* Adafruit 161 CdS Photoresistor <br>\* $0.95/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/161/7244927?s=N4IgTCBcDaIAQEEAmBDAZgJwK4EsAucAjAGyFwDCSAynAAoAWA9noxgKYDOOHLGIAugF8gA) | \* Simple design<br>\* Through hole installation<br> \* Detects changes in light when sensor is blocked| * Most Expensive<br>\* Low Minimum dark resistance (200 kOhms) <br>\*Light resistance is not listed                                                    |
 
-**Choice:** Option 1:  
+**Choice:** 
 
 **Rationale:**
+
+<br>
+<br>
+
+**Table 3: Voltage Regulator**
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|<img width="200" height="200" alt="NJM7805FA Voltage Regulator" src="https://github.com/user-attachments/assets/725bf1e8-68aa-40c9-9250-528edd75db14" /> <br>\* Option 1.<br>\* NJM7805FA 5V Linear Voltage Regulator <br>\* $1.85/each<br>\*[Link to product](https://www.digikey.com/en/products/detail/nisshinbo-micro-devices-inc/NJM7805FA/805763)  | \* Fixed 5V Output <br>\* Supports up to 1.5A <br>\* Through Hole Mounting                                              | \* Most expensive<br>\*Lower maximum operating temperature (85 °C) <br>\*Less energy efficient than a switching regulator |
+|<img width="200" height="200" alt="MC7805ACTG Voltage Regulator" src="https://github.com/user-attachments/assets/55a4bf72-e221-4df9-a0e8-c4d4c207266c" /> <br>\* Option 2. <br>\* MC7805ACTG 5V Linear Voltage Regultor <br>\* $1.07/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/onsemi/MC7805ACTG/1481210) | \* Fixed 5V output<br>\* Built-in overtemperature and short-circuit protection <br> \* Operating temperature up to 125°C |\*Lower rated output current (1A)  <br>\* Produces heat when reducing 9V to 5V <br>\*Requires external capacitors for recommended operation                                                    |
+|<img width="200" height="200" alt="L7805ABV Voltage Regulator" src="https://github.com/user-attachments/assets/4cf55124-54a8-4667-86fd-4a6576737602" /><br>\* Option 3. <br>\* L7805ABV-DG 5V Linear Voltage Regulator <br>\* $1.53/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805ABV-DG/3945936?s=N4IgTCBcDaIDIHYAcAGArAQQEIDUC0AIgOIgC6AvkA) | \* Fixed 5V output<br>\* Supports up to 1.5A<br> \* Overtemperature and short-circuit protection| * More expensive than option 2<br>\* Produces heat when reducing 9V to 5V <br>\*Requires external capacitors for recommended operation                                                    |
+
+**Choice:** 
+
+**Rationale:**
+
