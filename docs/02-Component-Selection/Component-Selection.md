@@ -44,3 +44,17 @@ title: Component Selection
 
 **Rationale:**
 
+<br>
+<br>
+
+**Table 4: 9V Power Supply**
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+|<img width="200" height="200" alt="ADafruit power adapter" src="https://github.com/user-attachments/assets/0c229c06-e549-4dbe-9740-07c74e274db6" /> <br>\* Option 1.<br>\* Adafruit 1448 Adjustable Power Adapter<br>\* $14.95/each<br>\*[Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1448/10670007)  | \* Adjustable output voltage, including 9V <br>\* Include multiple connector tips <br>\* Can change between center-positive and center negative polarity         | \* Most Expensive<br>\*Only supplies 900 mA at 9V,below the 1A requirment  <br>\*Requires a different jack or connector adapter |
+|<img width="200" height="200" alt="LCP 9V" src="https://github.com/user-attachments/assets/a954faee-41b7-469b-8e67-f8e98d549ad2" /> <br>\* Option 2. <br>\* GlobTek WR9HD1000LCP-F(R6B) <br>\* $10.35/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000LCP-F-R6B/8598260) | \* Fixed 9V output<br>\* Provides 1A output current <br> \* Less expensive than option 1|\*5.5 x 2.5 mm plug does not match the PJ-102AH jack  <br>\* Not adjustable to other voltages <br>\*Requires a different jack or connector adapter                                                    |
+| <img width="200" height="200" alt="CCP 9V" src="https://github.com/user-attachments/assets/47bd9298-9e94-4e05-8df6-84836eac379a" /> <br>\* Option 3. <br>\* GlobTekWR9HD1000CCP-F(R6B) <br>\* $10.35/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000CCP-F-R6B/8598259) | \* Fixed 9V output<br>\* Provides 1A output current<br> \* Less expensive than Option 1| * 5.5 x 2.1 mm plug compatiblity needs co<br>\* Not adjustable to other voltages<br>\*Limited to 1A output current                                                    |
+
+**Choice:** 
+
+**Rationale:**
