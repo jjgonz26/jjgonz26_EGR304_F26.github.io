@@ -14,4 +14,4 @@ My Submitted Schematic image should display below for Justin Gonzalez team 206
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [here](./JJG_Pet_Feeder_Light_Sensor.pdf), and the Zip folder of the project [*here*](JJG_Pet_Feeder.zip).
