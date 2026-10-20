@@ -10,7 +10,7 @@ This schematic represents the light sensor system for our automatic pet feeder. 
 
 <img width="635" height="624" alt="image" src="https://github.com/user-attachments/assets/4206d136-65fd-4928-804b-fd07ce361e63" />
 
-**Figure ##:** Automated Pet Feeder Light Sensor Schematic
+**Figure 1:** Automated Pet Feeder Light Sensor Schematic
 
 
 ## Resouces
