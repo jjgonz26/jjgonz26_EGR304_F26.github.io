@@ -36,4 +36,6 @@ This board will be connected to AJ's board to give an input to control the motor
 ## Justin Gonzalez Block Diagram 
 [Link to individual .drawio](https://drive.google.com/file/d/1Y3qVkam38sxITZQeANNHaddejhfWaVvK/view?usp=sharing)
 
-<img width="992" height="999" alt="304 Individual block diagram 206 update 2  drawio" src="https://github.com/user-attachments/assets/84b729e9-c05d-4e30-99dc-3c763563464e" />
+<img width="1112" height="1112" alt="304 Individual block diagram 206  drawio (2)" src="https://github.com/user-attachments/assets/a2d87800-d044-423d-8ee5-7517e8a8bd48" />
+
+
