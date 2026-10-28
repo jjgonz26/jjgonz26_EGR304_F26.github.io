@@ -1,8 +1,3 @@
-
-## Resouces
-
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
-
 # Power Budget
 
 ## Overview
@@ -38,3 +33,7 @@ This power budget checks that the selected regulator and power supply can power 
 - Regulator Headroom: 9 − 5 = 4V. Above the assumed 2V dropout requirement.
 - Battery Comparison: 600 mAh ÷ 47.64 mA = 12.6 hours. Idealized estimate; wall power selected for continuous operation.
 Power Configuration: The 9V/3A adapter feeds the L7805ABV regulator, which supplies the 5V rail for the Curiosity Nano and PCB components. The 1A fuse provides fault protection.
+
+## Resouces
+
+The power budget as a PDF download is available [*here*](Powerbudget_304.pdf), and a Microsoft Excel Sheet [*here*]().
