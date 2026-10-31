@@ -918,12 +918,12 @@
 <li>Buttons: (5V ÷ 10 kΩ) × 2 = 1.0 mA. Both pressed.</li>
 <li>LEDs: (5 − 3.0)/1 kΩ + (5 − 2.1)/1 kΩ = 4.9 mA. Both on.</li>
 <li>J3 Signal Lines: [5V ÷ (330 Ω + 10 kΩ)] × 3 = 1.45 mA. All three high; motor and driver are in the teammate's budget.</li>
-<li><strong>Total 5V Current</strong>: 23.8 + 0.68 + 1.48 + 1.0 + 4.9 + 1.45 = 33.31 mA. Estimated load.</li>
-<li>25% Safety Margin: 33.31 × 1.25 = 41.64 mA. Allowance for variations.</li>
-<li>9V Supply Current: 41.64 + 6 = 47.64 mA. Includes assumed maximum 7805 quiescent current.</li>
-<li>Regulator Heat: (9 − 5) × 0.04164 + 9 × 0.006 = 0.22 W. About 11°C rise at an assumed 50°C/W junction-to-ambient thermal resistance.</li>
+<li><strong>Total 5V Current</strong>: 23.8 + 0.68 + 1.48 + 1.0 + 4.9 + 1.45 = 33.33 mA. Estimated load.</li>
+<li>25% Safety Margin: 33.33 × 1.25 = 41.67 mA. Allowance for variations.</li>
+<li>9V Supply Current: 41.67 + 6 = 47.67 mA. Includes assumed maximum 7805 quiescent current.</li>
+<li>Regulator Heat: (9 − 5) × 0.04167 + 9 × 0.006 = 0.22 W. About 11°C rise at an assumed 50°C/W junction-to-ambient thermal resistance.</li>
 <li>Regulator Headroom: 9 − 5 = 4V. Above the assumed 2V dropout requirement.</li>
-<li>Battery Comparison: 600 mAh ÷ 47.64 mA = 12.6 hours. Idealized estimate; wall power selected for continuous operation.
+<li>Battery Comparison: 600 mAh ÷ 47.67 mA = 12.6 hours. Idealized estimate; wall power selected for continuous operation.
 Power Configuration: The 9V/3A adapter feeds the L7805ABV regulator, which supplies the 5V rail for the Curiosity Nano and PCB components. The 1A fuse provides fault protection.</li>
 </ul>
 <h2 id="resouces">Resouces</h2>
