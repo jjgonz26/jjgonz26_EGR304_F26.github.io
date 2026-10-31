@@ -36,4 +36,4 @@ Power Configuration: The 9V/3A adapter feeds the L7805ABV regulator, which suppl
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](Powerbudget_304.pdf), and a Microsoft Excel Sheet [*here*]().
+The power budget as a PDF download is available [*here*](Powerbudget_304.pdf), and a Microsoft Excel Sheet [*here*](304_pet_feeder_power_budget.xlsx).
