@@ -36,6 +36,6 @@ The project components will primarily be sourced from Digikey, PRLTA 109 class s
 | Capacitor, 1 µF, 50V| 6 | $0.00 | $0.00 |—  | —| [DigiKey](https://www.digikey.com/en/products/result?keywords=445-FK20X7R1H105KN000-ND) | PRLTA 109 | C1, C4, C5, C6, C7, C8 |
 | **Total (per board, Not including spares)** | | | **$6.53** | | | | | |
 
-*Class kit and PRLTA 109 components are supplied at no cost. Datasheet links will be added later.*
+*Class kit and PRLTA 109 components are supplied at no cost. *
 
 
