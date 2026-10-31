@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-As of now the parts for the project will be sourced from three places Digikey, Perlta/classroom supplies, and personal kit. I also ended up ordering some female headers from Amazon even though it says there are some availbe in the class just to have extra.
+The project components will primarily be sourced from Digikey, PRLTA 109 class supplies, and my personal component kit. Although female headers are available through classroom supplies, I also requested additional headers from Amazon to ensure sufficient quantities and have spare components available during assembly.
 
 # Bill of Materials — Pet Feeder Light Sensor Board
 
