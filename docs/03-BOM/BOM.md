@@ -12,14 +12,14 @@ As of now the parts for the project will be sourced from three places Digikey, P
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacturer** | **Manufacturer #** | **Vendor Link** | **Datasheet Link** | **Schematic Reference Designators** |
 |:---|---:|---:|---:|:---|:---|:---|:---|:---|
-| Ceramic capacitor, 0.1 µF, 50V | 2 | $0.00 | $0.00 | - | Class kit | PRLTA 109 | — | C2, C3 |
+| Ceramic capacitor, 0.1 µF, 50V | 2 | $0.00 | $0.00 | - | - | Class kit | — | C2, C3 |
 | Resistor, 1 kΩ, 1/4 W, axial | 2 | $0.00 | $0.00 | — | — | Class kit | — | R10, R11 |
-| Resistor, 330 Ω, 1/4 W, axial | 3 | $0.00 | $0.00 | — | — | Class kit | — | R9, R13, R14, R15, R18 |
+| Resistor, 330 Ω, 1/4 W, axial | 5 | $0.00 | $0.00 | — | — | Class kit | — | R9, R13, R14, R15, R18 |
 | Resistor, 10 kΩ, 1/4 W, axial | 8 | $0.00 | $0.00 | — | — | Class kit | — | R1, R4, R6, R7, R8, R12, R16, R17 |
 | LED, blue, 5 mm | 1 | $0.00 | $0.00 | — | — | Class kit | — | D1 |
 | LED, green, 5 mm | 1 | $0.00 | $0.00 | — | — | Class kit | — | D2 |
 | Tactile pushbutton, 6 mm | 2 | $0.00 | $0.00 | — | — | Class kit | — | SW3, SW4 |
-| Rectifier diode, 1N4007 | 1 | $0.00 | $0.00 | Diodes Incorprated | 1N4933DITR-ND | Class kit | [Datasheet](https://www.diodes.com/assets/Datasheets/products_inactive_data/ds26002.pdf) | D3 |
+| Rectifier diode, 1N4007 | 1 | $0.00 | $0.00 | Diodes Incorprated | - | Class kit | [Datasheet](https://www.diodes.com/assets/Datasheets/products_inactive_data/ds26002.pdf) | D3 |
 | DC barrel jack, 2.1 mm | 1 | $0.00 | $0.00 | CUI Devices | PJ-102AH | Class kit | [Datasheet](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J1 |
 | PIC18F57Q43 Curiosity Nano | 1 | $0.00 | $0.00 | Microchip | DM164150 | Class kit | [Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47-57Q43-Microcontroller-Data-Sheet-XLP-DS40002147.pdf) | U2 |
 | 14-pin DIP IC socket | 1 | $0.00 | $0.00 | On Shore Technology | ED14DT | PRLTA 109 | [Datasheet](https://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf) | U1 (socket) |
@@ -33,8 +33,8 @@ As of now the parts for the project will be sourced from three places Digikey, P
 | CdS photoresistor, 16–33 kΩ | 3 | $0.77 | $2.31 | Advanced Photonix | PDV-P8103 | [DigiKey](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610) | [Datasheet](https://www.advancedphotonix.com/wp-content/uploads/2015/07/DS-PDV-P8103.pdf) | R2, R3, R5 |
 | PCB test point, miniature, red | 7 | $0.26 | $1.82 | Keystone | 5000 | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/5000/255326) | [Datasheet](https://www.keyelco.com/userAssets/file/K75p62.pdf) | TP1–TP7 |
 | PCB test point, miniature, black | 1 | $0.27 | $0.27 | Keystone | 5001 | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/5001/255327) | [Datasheet](https://www.keyelco.com/userAssets/file/K75p62.pdf) | TP8 |
-| Capacitor, 1 µF, 50V| 4 | $0.00 | $0.00 |—  | —| [DigiKey](https://www.digikey.com/en/products/result?keywords=445-FK20X7R1H105KN000-ND) | PRLTA 109 | C1, C4, C5, C6, C7, C8 |
-| **Total (per board)** | | | **$6.53** | | | | | |
+| Capacitor, 1 µF, 50V| 6 | $0.00 | $0.00 |—  | —| [DigiKey](https://www.digikey.com/en/products/result?keywords=445-FK20X7R1H105KN000-ND) | PRLTA 109 | C1, C4, C5, C6, C7, C8 |
+| **Total (per board, Not including spares)** | | | **$6.53** | | | | | |
 
 *Class kit and PRLTA 109 components are supplied at no cost. Datasheet links will be added later.*
 
