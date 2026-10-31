@@ -27,7 +27,7 @@ title: Component Selection
 
 **Choice:** Option 1: PDV-P8103 Photoresistor
 
-**Rationale:** Option 1 was selected because of changing resistance when exposed to light allowing the system to detect when food blocks light at different levels of the container. It is affordable, uses through-hole mounting, and can be incorporated into a voltage divider circuit. Since our project uses three light sensors, its lower cost is also benefical.
+**Rationale:** Option 1 was selected because of changing resistance when exposed to light allowing the system to detect when food blocks light at different levels of the container. It is affordable, uses through-hole mounting, and can be incorporated into a voltage divider circuit. Since our project uses three light sensors, its lower cost is also beneficial. I will also have access to these in the classroom so if I need spares or replacements.
 
 <br>
 <br>
@@ -42,7 +42,7 @@ title: Component Selection
 
 **Choice:** Option 3: L7805ABV-DG 5V Linear Voltage Regulator
 
-**Rationale:** Option 3 provides a regulated 5V output needed for the circuit while accepting the 9V input from the power adapter. It includes overtemperature and short-circuit protection. Its 1A output rating matches our planned power requirements, provided the circuit's total current consumption stays within the limit
+**Rationale:** Option 3 provides a regulated 5V output needed for the circuit while accepting the 9V input from the power adapter. It includes overtemperature and short-circuit protection. Its 1.5A output rating matches our planned power requirements, provided the circuit's total current consumption stays within the limit
 
 <br>
 <br>
@@ -53,8 +53,8 @@ title: Component Selection
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 |<img width="200" height="200" alt="ADafruit power adapter" src="https://github.com/user-attachments/assets/0c229c06-e549-4dbe-9740-07c74e274db6" /> <br>\* Option 1.<br>\* Adafruit 1448 Adjustable Power Adapter<br>\* $14.95/each<br>\*[Link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/1448/10670007)  | \* Adjustable output voltage, including 9V <br>\* Include multiple connector tips <br>\* Can change between center-positive and center negative polarity         | \* Most Expensive<br>\*Only supplies 900 mA at 9V,below the 1A requirment  <br>\*Requires a different jack or connector adapter |
 |<img width="200" height="200" alt="LCP 9V" src="https://github.com/user-attachments/assets/a954faee-41b7-469b-8e67-f8e98d549ad2" /> <br>\* Option 2. <br>\* GlobTek WR9HD1000LCP-F(R6B) <br>\* $10.35/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000LCP-F-R6B/8598260) | \* Fixed 9V output<br>\* Provides 1A output current <br> \* Less expensive than option 1|\*5.5 x 2.5 mm plug does not match the PJ-102AH jack  <br>\* Not adjustable to other voltages <br>\*Requires a different jack or connector adapter                                                    |
-| <img width="200" height="200" alt="CCP 9V" src="https://github.com/user-attachments/assets/47bd9298-9e94-4e05-8df6-84836eac379a" /> <br>\* Option 3. <br>\* GlobTekWR9HD1000CCP-F(R6B) <br>\* $10.35/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/globtek-inc/WR9HD1000CCP-F-R6B/8598259) | \* Fixed 9V output<br>\* Provides 1A output current<br> \* Less expensive than Option 1| * 5.5 x 2.1 mm plug compatiblity needs co<br>\* Not adjustable to other voltages<br>\*Limited to 1A output current                                                    |
+|<img width="206" height="364" alt="31UE8SX03rS _AC_" src="https://github.com/user-attachments/assets/290e2dc0-38f6-4811-a703-e713ccd339f5" /> <br>\* Option 3. <br>\* BestCH 9V 3.0A AC Adapter for EDAC EA10302 EDACPOWER 9VDC 3A 3000mA Switching Mode <br>\* $4.52/each <br>\* [Link to product](https://www.amazon.com/gp/product/B09ZTKTLGW/ref=ox_sc_act_title_1?smid=A2RTFKCMY9PDNC&psc=1) | \* Fixed 9V output<br>\* Rated up to 3A<br> \* Most affordable option| * Longterm reliability unknown<br>\* No datasheet available with this vendor<br>                                                |
 
-**Choice:** Option 3:  GlobTek WR9HD1000CCP-F(R6B)
+**Choice:** Option 3:  BestCH 9V 3A AC Adapter
 
-**Rationale:** The power adapter provides the required 9V and 1A output at a lower cost than the adjustable alternative. It also uses a North American wall plug and canter-positive polarity. Connector Compatibility will be verified before final assembly, and a compatible power jack can be selected if necessary.
+**Rationale:** The power adapter provides the required 9V and 3A output at a lower cost than the adjustable alternative. It also uses a North American wall plug. Connector Compatibility will be verified before final assembly, and a compatible power jack can be selected if necessary. This is also similar to the adapter distrbted in class which is the one I intend on using.
