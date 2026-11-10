@@ -26,7 +26,7 @@ for<br>
 
 ### My Contribution
 
-* This is one of the subsystem pages of team 206 throughout this website you will have access to information on our teams sensor board you can see block diagram for early planning and basic functionality, Component Selection with justification on major components of the board, Bill of Materials with explanations of where each component will be sourced, the schematic that the PCB will be based off of, and lastly a power budget to ensure that the device will operate effectively. Below are direct links to each individual page in regard to the light sensor board.
+* This is one of the subsystem pages of team 206 throughout this website you will have access to information on our teams sensor board you can see block diagram for early planning and basic functionality, Component Selection with justification on major components of the board, Bill of Materials with explanations of where each component will be sourced, the schematic that the PCB will be based off of, and lastly a power budget to ensure that the device will operate effectively. Lastly are my two layers for my PCB design. Below are direct links to each individual page in regard to the light sensor board.
 
 To review the Block Diagram, you can review it in the ["Block Diagram"](https://jjgonz26.github.io/jjgonz26_EGR304_F26.github.io/01-Block-Diagram/Block-Diagram/) section of the datasheet.
 
@@ -38,5 +38,6 @@ To review the sensor board schematic, you can review it in the ["Schematic"](htt
 
 To review the Power Budget, you can review it in the ["Power Budget"](https://jjgonz26.github.io/jjgonz26_EGR304_F26.github.io/05-Power-Budget/Power-Budget/) section of the datasheet.
 
+To review the PCB, you can review it in the ["PCB Design"](https://jjgonz26.github.io/jjgonz26_EGR304_F26.github.io/06-PCB-Design/pcb/) section of the datasheet.
 
 
