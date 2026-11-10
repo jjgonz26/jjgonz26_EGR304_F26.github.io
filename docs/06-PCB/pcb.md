@@ -23,4 +23,4 @@ title: PCB Design
 
 ## Resources
 
-The schematic as a PDF download is available [here](./JJG_Sensor_Design_304.pdf), and the Zip folder of the project [*here*](JJG_Sensor_design_Final.zip).
+The PCB F_Cu layer as a PDF is available [here](./JJG_Sensor_Design-F_Cu.pdf), PCB B_Cu layer as a PDF is available [here](./JJG_Sensor_Design-B_Cu.pdf), and the Zip folder of the project [*here*](JJG_Sensor_design_Final.zip).
