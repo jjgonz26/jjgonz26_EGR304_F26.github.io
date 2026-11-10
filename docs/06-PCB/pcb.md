@@ -8,9 +8,17 @@ title: PCB Design
 **Figure 1:** PCB Layout
 
 
-<img width="902" height="902" alt="image" src="https://github.com/user-attachments/assets/a29523f9-fc50-461a-b4bc-3b97f8feb5ff" />
+## PCB F_Cu
 
+<img width="578" height="580" alt="image" src="https://github.com/user-attachments/assets/879067c1-acea-4445-9236-91b1841bad8f" />
 
+**Figure 2:** PCB F_Cu
+
+## PCB B_Cu
+
+<img width="578" height="581" alt="image" src="https://github.com/user-attachments/assets/e85868a1-1b62-415e-bf4f-6616ec0fe276" />
+
+**Figure 3:** PCB B_Cu
 
 
 ## Resources
