@@ -3,22 +3,19 @@ title: PCB Design
 ---
 
 ## Overview
-
-
-**Figure 1:** PCB Layout
-
+This is the PCB design developed for the sensor subsystem of our automatic pet feeder. The board uses a two-layer design with components and copper traces arranged to provide the necessary electrical connections. The front and back copper layers are shown below.
 
 ## PCB F_Cu
 
 <img width="578" height="580" alt="image" src="https://github.com/user-attachments/assets/879067c1-acea-4445-9236-91b1841bad8f" />
 
-**Figure 2:** PCB F_Cu
+**Figure 1:** PCB F_Cu
 
 ## PCB B_Cu
 
 <img width="578" height="581" alt="image" src="https://github.com/user-attachments/assets/e85868a1-1b62-415e-bf4f-6616ec0fe276" />
 
-**Figure 3:** PCB B_Cu
+**Figure 2:** PCB B_Cu
 
 
 ## Resources
