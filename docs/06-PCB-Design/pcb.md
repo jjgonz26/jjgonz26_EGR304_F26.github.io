@@ -3,7 +3,7 @@ title: PCB Design
 ---
 
 ## Overview
-This is the PCB design developed for the sensor subsystem of our automatic pet feeder. The board uses a two-layer design with components and copper traces arranged to provide the necessary electrical connections. The front and back copper layers are shown below.
+This is the PCB was designed developed for the sensor subsystem of our automatic pet feeder based on the light sensor schematic. The board uses a two-layer design with components and copper traces arranged to provide the necessary electrical connections. The complete PCB layout, front copper layer, and back copper layer are shown below. The design passed the KiCad DRC check with no errors, and the JLCDFM manufacturing analysis identified no danger-level issues.
 
 ## PCB 
 
