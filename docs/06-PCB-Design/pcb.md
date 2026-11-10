@@ -26,4 +26,10 @@ This is the PCB design developed for the sensor subsystem of our automatic pet f
 
 ## Resources
 
-The PCB F_Cu layer as a PDF is available [here](./JJG_Sensor_Design-F_Cu.pdf), PCB B_Cu layer as a PDF is available [here](./JJG_Sensor_Design-B_Cu.pdf), and the Zip folder of the project [*here*](JJG_Sensor_design_Final.zip).
+The PCB F_Cu layer as a PDF is available [here](./JJG_Sensor_Design-F_Cu.pdf)
+
+PCB B_Cu layer as a PDF is available [here](./JJG_Sensor_Design-B_Cu.pdf)
+
+Zip folder of the project [*here*](JJG_Sensor_design_Final.zip)
+
+Gerber Files for PCB Manufacturing are available [here](206_JJG_Gerber_File.zip)
