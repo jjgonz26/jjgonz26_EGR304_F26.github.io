@@ -9,11 +9,11 @@ This schematic represents the light sensor system for our automatic pet feeder. 
 **Figure 1:** Automated Pet Feeder Light Sensor Schematic
 
 
-<img width="902" height="902" alt="image" src="https://github.com/user-attachments/assets/a29523f9-fc50-461a-b4bc-3b97f8feb5ff" />
+<img width="900" height="901" alt="image" src="https://github.com/user-attachments/assets/bbb228aa-0eae-45c9-a1b0-e8b77af5ade6" />
 
 
 
 
 ## Resources
 
-The schematic as a PDF download is available [here](./JJG_Sensor_Design_304.pdf), and the Zip folder of the project [*here*](JJG_Sensor_design_Final.zip).
+The schematic as a PDF download is available [here](./JJG_Sensor_Design_FINAL.pdf), and the Zip folder of the project [*here*](JJG_Sensor_design_Final.zip).
