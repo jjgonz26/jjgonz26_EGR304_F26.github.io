@@ -7,7 +7,8 @@ This is the PCB was designed developed for the sensor subsystem of our automatic
 
 ## PCB 
 
-<img width="602" height="602" alt="image" src="https://github.com/user-attachments/assets/fa8fac3b-96b9-42ac-ab31-30c50c0efe48" />
+<img width="600" height="602" alt="image" src="https://github.com/user-attachments/assets/c0ca2059-8986-4cf2-9788-1a7fbe418ef7" />
+
 
 **Figure 1:** PCB
 
